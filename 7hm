@@ -1,0 +1,9 @@
+def search_substr(subst, st):
+    if subst.lower() in st.lower():
+        return "Nice"
+    else:
+        return "bad!"
+
+#для примера
+example = example("Привет", "Привет, Сергей")
+print(example)
